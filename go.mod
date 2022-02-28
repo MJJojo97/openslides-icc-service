@@ -12,6 +12,9 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 )
 
+//replace github.com/OpenSlides/openslides-autoupdate-service => github.com/MJJojo97/openslides-autoupdate-service v0.4.1-0.20220223151412-4b45460726af
+replace github.com/OpenSlides/openslides-autoupdate-service => github.com/MJJojo97/openslides-autoupdate-service v0.4.1-0.20220223164137-658448bbb4dc
+
 require (
 	github.com/Azure/go-ansiterm v0.0.0-20210617225240-d185dfc1b5a1 // indirect
 	github.com/Microsoft/go-winio v0.5.1 // indirect
